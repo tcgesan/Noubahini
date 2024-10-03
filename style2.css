@@ -380,3 +380,61 @@ animation-delay: -0.5s;
     background-position-x: 1000px;
 }
 } 
+
+
+.map{
+    position: absolute;
+    margin-top: 130px;
+    display: flex;
+    width: 17.80%;
+box-shadow: 2px 1px 25px 2px #b6b6f0;
+    /* background-color: white; */
+    margin-left: 13%;
+    height: 270px;
+}
+
+
+.footer{
+    width: 100%;
+    height: 470px;
+    position: absolute;
+    margin-top: 2600px;
+    background-color: #222121;
+}
+
+
+.location-text{
+    color: red;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 13%;
+}
+hr{
+    width: 260px;
+    position: absolute;
+    margin-top: 16px;
+    border: 1px solid red;
+}
+
+.copyright{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    margin-top: 460px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #051d41;
+}
+
+#copy-text{
+    transition-duration: 0.3s;
+    color: red;
+}
+
+#copy-text:hover{
+    color: white;
+}
+
